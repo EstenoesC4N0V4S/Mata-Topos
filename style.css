@@ -1,0 +1,88 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  background-color: #5c94fc; /* cielo azul */
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+}
+
+h1 {
+  color: #ffcc00; /* amarillo Mario */
+  text-shadow: 2px 2px #000;
+}
+
+#contador {
+  margin: 15px 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#btnIniciar {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff0000; /* rojo Mario */
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  text-shadow: 1px 1px #000;
+  transition:
+    transform 0.2s,
+    background-color 0.3s;
+}
+
+#btnIniciar:hover {
+  background-color: #cc0000;
+  transform: scale(1.05);
+}
+
+#cuadricula {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-gap: 15px;
+  justify-content: center;
+}
+
+.casilla {
+  width: 120px;
+  height: 120px;
+  background-color: #8b4513; /* bloque marrón Mario */
+  border: 3px solid #654321;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow:
+    inset 0 -10px 0 #654321,
+    0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.casilla img {
+  width: 80px;
+  height: 80px;
+  display: none;
+  transition: transform 0.2s;
+}
+
+.casilla img.sube {
+  display: block;
+  transform: translateY(-30px);
+}
+
+.casilla.acierto {
+  background-color: #4caf50; /* verde Mario */
+  box-shadow: inset 0 -10px 0 #357a38;
+}
+
+.casilla.fallo {
+  background-color: #f44336;
+  box-shadow: inset 0 -10px 0 #c62828;
+}
