@@ -42,13 +42,19 @@ Mata-Topos/
     └── script.js
 ```
 
-## 🚀 Ejecutar el proyecto
+## 🚀 Demo online
+
+Puedes probar el juego directamente desde el navegador:
+
+👉 **[🎮 Jugar a Mata Topos](https://estenoesc4n0v4s.github.io/Mata-Topos/)**
+
+## 💻 Ejecutar el proyecto
 
 No necesita instalación ni servidor.
 
 Puedes descargar o clonar el repositorio y abrir `index.html` directamente en el navegador.
 
-También puede ejecutarse mediante **GitHub Pages**.
+También puede ejecutarse online mediante **GitHub Pages**.
 
 ## 📚 Objetivo del proyecto
 
@@ -76,6 +82,6 @@ Este proyecto ha sido desarrollado como práctica de **desarrollo web**, aplican
 
 **Rodrigo Cánovas**
 
-Proyecto desarrollado como parte de mi portfolio de desarrollo web.
+Proyecto desarrollado como parte de mi **portfolio de desarrollo web**.
 
 **HTML5 · CSS3 · JavaScript**
